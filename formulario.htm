@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <form action="" method="POST">
+        <br><br>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" size="50" maxlength="50">
+        <br><br><br>
+        <label for="senha">Senha:</label>
+        <input type="text" type="password" name="senha" size="8" maxlength="8">
+        <br><br><br>
+
+        <fieldset>
+            <label for="linguagem">Linguagem que tem interesse</label>
+            <br><br>
+            <input type="checkbox" name="linguagem[]" value="c++">C++
+            <input type="checkbox" name="linguagem[]" value="java">Java
+            <input type="checkbox" name="linguagem[]" value="python">Python     
+            <input type="checkbox" name="linguagem[]" value="javascript">JavaScript
+            <input type="checkbox" name="linguagem[]" value="php">PHP
+            <input type="checkbox" name="linguagem[]" value="html">HTML
+            <input type="checkbox" name="linguagem[]" value="css">CSS
+            <input type="checkbox" name="linguagem[]" value="delphi">Delphi
+        </fieldset>
+
+        <label for="linguagemescolhida">Linguagem que irá cursar agora</label>
+        <br><br>
+        
+        <input type="radio" name="curso" value="c++">C++
+        <input type="radio" name="curso" value="java">Java
+        <input type="radio" name="curso" value="python">Python
+        <input type="radio" name="curso" value="javascript">JavaScript  
+        <input type="radio" name="curso" value="php">PHP
+        <input type="radio" name="curso" value="html">HTML
+        <input type="radio" name="curso" value="css">CSS
+        <input type="radio" name="curso" value="delphi">Delphi
+        <br><br>
+        
+        <select name="escola">
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="php">PHP</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="delphi">Delphi</option>
+        </select>
+        <br><br>
+
+        <input type="submit" type="submit" id="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
